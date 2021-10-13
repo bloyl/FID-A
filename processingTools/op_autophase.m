@@ -66,4 +66,4 @@ ph0=-phase(in_zp.specs(ppmindex,dimNum))*180/pi;
 
 %Now phase shift the dataset so that the desired peak has the correct phase:
 phShft = ph0 + ph;
-out=op_addphase(in,phShft);
+out=op_addphase(in,phShft,0,4.65,1);
